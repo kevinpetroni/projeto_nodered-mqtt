@@ -1,0 +1,11 @@
+##MOSQUITTO########
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto
+    ports:
+      - 11883:11883
+      - 9001:9001
+    volumes:
+      - ./mosquitto-config:/mosquitto/config:ro
+    networks:
+      - compose-bridge
