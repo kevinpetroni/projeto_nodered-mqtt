@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "b10d6af9b986e42a",
+        "type": "tab",
+        "label": "Project",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "602eb2ceec2d373f",
         "type": "tab",
         "label": "Hello World MQTT",
